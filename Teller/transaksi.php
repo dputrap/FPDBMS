@@ -10,6 +10,14 @@ if( !isset($_SESSION['saya_teller']) )
 $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 ?>
 <!DOCTYPE html>
+<style>
+	body{
+		background-image: url(../assets/road.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+  		background-size: cover;
+	}
+	</style>
 <html>
 <head>
 	<title>Motor Bekas</title>
@@ -93,7 +101,7 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 					  			$no = 1;
 					  			$query = mysqli_query($koneksi, "SELECT * from transaksi ORDER BY Tgl_Trsk DESC");
 					  			while ($data = mysqli_fetch_array($query)) {
-					  		 ?>
+					  		 	?>
 								<tr>
 									<td><?=$no++;?></td>
 									<td><?=$data['IdTrsk']?></td>

@@ -7,7 +7,7 @@
 * dan data lain yang nantinya akan digunakan secara terus-menerus
 */
 # rubahlah sesuai alamat website kamu
-$url    = 'http://localhost/FPPhp';
+$url    = 'http://localhost/FPDBMS';
  
 # host untuk database, biasanya 'localhost'
 $dbhost = 'localhost';

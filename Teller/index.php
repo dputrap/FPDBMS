@@ -176,7 +176,6 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 					  			while ($data = mysqli_fetch_array($query)) {
 					  		 ?>
 								<tr>
-									<td><?=$no++;?></td>
 									<td><?=$data['Gambar_Motor']?></td>
 									<td><?=$data['Tgl_Beli']?></td>
 		                            <td><?=$data['Harga_Beli']?></td>
