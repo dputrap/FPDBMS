@@ -176,7 +176,7 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 					  			while ($data = mysqli_fetch_array($query)) {
 					  		 ?>
 								<tr>
-									<td><?=$data['Gambar_Motor']?></td>
+									<td class="text-center"><img src="../img/<?php echo $data['Gambar_Motor']; ?>" style="width: 300px;"></td>
 									<td><?=$data['Tgl_Beli']?></td>
 		                            <td><?=$data['Harga_Beli']?></td>
 		                            <td><?=$data['Tgl_Jual']?></td>

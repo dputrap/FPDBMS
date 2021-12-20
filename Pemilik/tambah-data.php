@@ -39,7 +39,7 @@ if($Gambar_Motor != "") {
                 move_uploaded_file($file_tmp, '../img/'.$nama_gambar_baru); //memindah file gambar ke folder gambar
                   // jalankan query INSERT untuk menambah data ke database pastikan sesuai urutan (id tidak perlu karena dibikin otomatis)
                   $query = "INSERT INTO identitas_motor (NoRegistrasi, NamaPemilik, Alamat, NoRangka, NoMesin, PlatNO, Merk, Type, Model, TahunPembuatan, IsiSilinder, BahanBakar, WarnaTNKB, TahunRegistrasi, NoBPKB, KodeLokasi, MasaBerlakuSTNK, Gambar_Motor, Tgl_Beli, Harga_Beli, Tgl_Jual, Harga_Jual) 
-				  VALUES ('','$NoRegistrasi','$NamaPemilik','$Alamat','$NoRangka','$NoMesin','$PlatNO','$Merk','$Type','$Model','$TahunPembuatan','$IsiSilinder','$BahanBakar','$WarnaTNKB','$TahunRegistrasi','$NoBPKB','$KodeLokasi','$MasaBerlakuSTNK','$nama_gambar_baru','$Tgl_Beli','$Harga_Beli','$Tgl_Jual','$Harga_Jual')";
+				  VALUES ('$NoRegistrasi','$NamaPemilik','$Alamat','$NoRangka','$NoMesin','$PlatNO','$Merk','$Type','$Model','$TahunPembuatan','$IsiSilinder','$BahanBakar','$WarnaTNKB','$TahunRegistrasi','$NoBPKB','$KodeLokasi','$MasaBerlakuSTNK','$nama_gambar_baru','$Tgl_Beli','$Harga_Beli','$Tgl_Jual','$Harga_Jual')";
                   $result = mysqli_query($koneksi, $query);
                   // periska query apakah ada error
                   if(!$result){

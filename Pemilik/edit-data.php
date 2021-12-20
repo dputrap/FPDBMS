@@ -4,7 +4,7 @@ include '../config.php';
 
 	// membuat variabel untuk menampung data dari form
     
-    $NoRegistrasi = $_POST['NoRegistrasi'];
+  $NoRegistrasi = $_POST['NoRegistrasi'];
 	$NamaPemilik = $_POST['NamaPemilik'];
 	$Alamat = $_POST['Alamat'];
 	$NoRangka = $_POST['NoRangka'];

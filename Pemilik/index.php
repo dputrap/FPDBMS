@@ -62,12 +62,7 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 								<img src="../assets/logout.png" width="20" height="20" class="d-inline-block align-top"> Logout
 							</a>
 						</li>
-						<div class="dropdown-divider"></div>
-						<li class="nav-item mt-2">
-							<a class="nav-link" href="form-upload-gambar.php">
-								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Tambah Gambar
-							</a>
-						</li>
+						
 					</ul>
 					<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-2 mt-5 mb-1 text-muted">
 				</div>

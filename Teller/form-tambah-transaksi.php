@@ -29,7 +29,7 @@
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
 							<a class="nav-link" href="form-tambah-user.php">
-								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Tambah Data
+								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Tambah Transaksi
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>
@@ -40,12 +40,12 @@
 			<!-- Content -->
 			<div class="col-10">
 				<div class="container-fluid mt-3">
-					<h1>Input Data</h1>
+					<h1>Input Transaksi</h1>
 					<div class="dropdown-divider"></div>
 					<!-- Form jadwal -->
 					<div class="card mt-3">
 						<div class="card-header bg-secondary text-white">
-							Form Tambah Data
+							Form Tambah Transaksi
 						</div>
 						<div class="card-body">
 							<form method="post" action="tambah-transaksi.php">

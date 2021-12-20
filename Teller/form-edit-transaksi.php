@@ -29,7 +29,7 @@
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
 							<a class="nav-link" href="form-edit-transaksi.php">
-								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Edit User
+								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Edit Transaksi
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>

@@ -29,7 +29,7 @@
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
 							<a class="nav-link" href="form-tambah-data.php">
-								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Tambah Jadwal
+								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Tambah Data
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>
@@ -40,12 +40,12 @@
 			<!-- Content -->
 			<div class="col-10">
 				<div class="container-fluid mt-3">
-					<h1>Edit Jadwal</h1>
+					<h1>Edit Data</h1>
 					<div class="dropdown-divider"></div>
 					<!-- Form jadwal -->
 					<div class="card mt-3">
 						<div class="card-header bg-secondary text-white">
-							Form Edit Jadwal
+							Form Edit Data
 						</div>
 						<div class="card-body">
 							<?php

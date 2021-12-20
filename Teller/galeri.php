@@ -71,7 +71,7 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 									<th class="text-center">Type</th>
 									<th class="text-center">Model</th>
 									<th class="text-center">Harga Jual</th>
-                                    <th class="text-center">Aksi</th>
+                                    
 								</tr>
 								<?php
 								include '../config.php';
@@ -86,12 +86,7 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 		                            <td><?=$data['Type']?></td>
 		                            <td><?=$data['Model']?></td>
 		                            <td><?=$data['Harga_Jual']?></td>
-		                            <td>
-						  				<a href="form-edit-data.php?id=<?php echo $data['ID']; ?>" class="btn btn-success">
-						  				<img src="../assets/edit.png" width="15" height="18" class="d-inline-block align-middle"></a>
-						  				<a href="hapus-data.php?id=<?php echo $data['ID'];?>" class="btn btn-danger ml-2">
-						  				<img src="../assets/delete.png" width="15" height="18" class="d-inline-block align-middle"></a>
-						  			</td>
+		                            
 								</tr>
 							<?php };?>
 							</table>

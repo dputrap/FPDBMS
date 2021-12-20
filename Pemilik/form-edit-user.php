@@ -40,12 +40,12 @@
 			<!-- Content -->
 			<div class="col-10">
 				<div class="container-fluid mt-3">
-					<h1>Edit <i class="fas fa-database    "></i></h1>
+					<h1>Edit User<i class="fas fa-database    "></i></h1>
 					<div class="dropdown-divider"></div>
 					<!-- Form jadwal -->
 					<div class="card mt-3">
 						<div class="card-header bg-secondary text-white">
-							Form Edit Data
+							Form Edit User
 						</div>
 						<div class="card-body">
 							<?php
