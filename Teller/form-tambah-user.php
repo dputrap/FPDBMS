@@ -40,12 +40,12 @@
 			<!-- Content -->
 			<div class="col-10">
 				<div class="container-fluid mt-3">
-					<h1>Input Data</h1>
+					<h1>Input Data User</h1>
 					<div class="dropdown-divider"></div>
 					<!-- Form jadwal -->
 					<div class="card mt-3">
 						<div class="card-header bg-secondary text-white">
-							Form Tambah Data
+							Form Tambah User
 						</div>
 						<div class="card-body">
 							<form method="post" action="tambah-user.php">
