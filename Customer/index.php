@@ -1,19 +1,3 @@
-<?php
-session_start();
- 
-if( !isset($_SESSION['nama_user']) )
-{
-    header('location:./../'.$_SESSION['akses']);
-    exit();
-}else{
-    $Nama = $_SESSION['nama_user'];
-}
- 
-?>
- 
-<h1>Halaman Member <span style="color:red"><?php echo $Nama;?></span></h1>
-
-
 <!DOCTYPE html>
 <html>
 <head>
