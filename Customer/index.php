@@ -23,7 +23,7 @@ if( !isset($_SESSION['nama_user']) )
 <body>
 	
 	<!-- Navbar -->
-	<nav class="navbar navbar-dark bg-secondary flex-md-nowrap p-2 shadow col-12">
+	<nav class="navbar navbar-light flex-md-nowrap p-2 shadow col-12" style="background-color: #669999;">
   		<div class="container-fluid">
   			<a class="navbar-brand h1">
   				<img src="../assets/motorcycle.png" width="25">
@@ -34,7 +34,7 @@ if( !isset($_SESSION['nama_user']) )
 	<div class="container-fluid">
 		<div class="row">
 			<!-- Sidebar -->
-			<div class="col-md-2 d-none d-md-block bg-light sidebar" style="height: 100vh">
+			<div class="col-md-2 d-none d-md-block sidebar" style="background-color: #a3c1ad;">
 				<div class="sidebar-sticky">
 					<ul class="nav flex-column">
 						<li class="nav-item mt-3">
@@ -42,19 +42,19 @@ if( !isset($_SESSION['nama_user']) )
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="index.php">
+							<a class="nav-link text-white" href="index.php">
 								<img src="../assets/bars-graphic-business-symbol.png" width="20" height="20" class="d-inline-block align-top"> Dashboard
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="galeri.php">
+							<a class="nav-link text-white" href="galeri.php">
 								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Galeri Motor
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="../logout.php">
+							<a class="nav-link text-white" href="../logout.php">
 								<img src="../assets/logout.png" width="20" height="20" class="d-inline-block align-top"> Logout
 							</a>
 						</li>
