@@ -29,6 +29,20 @@ if( !isset($_SESSION['nama_user']) )
   				<img src="../assets/motorcycle.png" width="25">
   				<span class="navbar-brand mb-0 h1">Jual Motor Bekas</span>
             </a>
+		<?php
+		session_start();
+		
+		if( !isset($_SESSION['nama_user']) )
+		{
+			header('location:./../'.$_SESSION['akses']);
+			exit();
+		}else{
+			$Nama = $_SESSION['nama_user'];
+		}
+		
+		?>
+		
+		<h5>Halaman Member <span style="color:white"><?php echo $Nama;?></span></h5>
   		</div>
 	</nav>
 	<div class="container-fluid">
