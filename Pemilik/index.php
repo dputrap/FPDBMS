@@ -1,17 +1,3 @@
-<?php
-session_start();
- 
-if( !isset($_SESSION['saya_admin']) )
-{
-    header('location:./../'.$_SESSION['akses']);
-    exit();
-}
- 
-$Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
-?>
-<h1>Halaman Pemilik <span style="color:red"><?php echo $Nama;?></span></h1>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,18 +7,30 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 <body>
 	
 	<!-- Navbar -->
-	<nav class="navbar navbar-dark bg-secondary flex-md-nowrap p-2 shadow col-12">
+	<nav class="navbar navbar-light flex-md-nowrap p-2 shadow col-12" style="background-color: #669999;">
   		<div class="container-fluid">
   			<a class="navbar-brand h1">
   				<img src="../assets/motorcycle.png" width="25">
   				<span class="navbar-brand mb-0 h1">Jual Motor Bekas</span>
             </a>
+			<?php
+		session_start();
+		
+		if( !isset($_SESSION['saya_admin']) )
+		{
+			header('location:./../'.$_SESSION['akses']);
+			exit();
+		}
+		
+		$Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
+		?>
+		<h5>Halaman Pemilik <span style="color:white"><?php echo $Nama;?></span></h5>
   		</div>
 	</nav>
 	<div class="container-fluid">
 		<div class="row">
 			<!-- Sidebar -->
-			<div class="col-md-2 d-none d-md-block bg-light sidebar" style="height: 100vh">
+			<div class="col-md-2 d-none d-md-block sidebar" style="background-color: #a3c1ad;">
 				<div class="sidebar-sticky">
 					<ul class="nav flex-column">
 						<li class="nav-item mt-3">
@@ -40,25 +38,25 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="index.php">
+							<a class="nav-link text-white" href="index.php">
 								<img src="../assets/bars-graphic-business-symbol.png" width="20" height="20" class="d-inline-block align-top"> Dashboard
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="form-tambah-data.php">
+							<a class="nav-link text-white" href="form-tambah-data.php">
 								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Tambah Data
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="user.php">
+							<a class="nav-link text-white" href="user.php">
 								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Data User
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="../logout.php">
+							<a class="nav-link text-white" href="../logout.php">
 								<img src="../assets/logout.png" width="20" height="20" class="d-inline-block align-top"> Logout
 							</a>
 						</li>
@@ -75,7 +73,7 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 					<!-- Tabel Pasien -->
 					<div class="car mt-3">
 						<!-- Header -->
-						<div class="card-header bg-light text-dark">
+						<div class="card-header text-dark" style="background-color: #a3c1ad;">
 							<h5 class="text-center">Data Identitas Motor</h5>
 						</div>
 						<!-- Body -->
