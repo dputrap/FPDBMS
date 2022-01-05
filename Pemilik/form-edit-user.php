@@ -6,7 +6,7 @@
 </head>
 <body>
 	<!-- Navbar -->
-	<nav class="navbar navbar-dark bg-secondary flex-md-nowrap p-2 shadow">
+	<nav class="navbar navbar-light flex-md-nowrap p-2 shadow" style="background-color: #669999;">
   		<div class="container-fluid">
   			<span class="navbar-brand mb-0 h1">Form Edit Data</span>
   		</div>
@@ -14,7 +14,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<!-- Sidebar -->
-			<div class="col-md-2 d-none d-md-block bg-light sidebar" style="height: 100vh">
+			<div class="card-header text-white" style="background-color: #a3c1ad;">
 				<div class="sidebar-sticky">
 					<ul class="nav flex-column">
 						<li class="nav-item mt-3">
@@ -22,13 +22,13 @@
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="index.php">
+							<a class="nav-link text-white" href="index.php">
 								<img src="../assets/bars-graphic-business-symbol.png" width="20" height="20" class="d-inline-block align-top"> Dashboard
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="">
+							<a class="nav-link text-white" href="">
 								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Edit User
 							</a>
 						</li>
@@ -44,7 +44,7 @@
 					<div class="dropdown-divider"></div>
 					<!-- Form jadwal -->
 					<div class="card mt-3">
-						<div class="card-header bg-secondary text-white">
+						<div class="card-header text-white" style="background-color: #a3c1ad;">
 							Form Edit User
 						</div>
 						<div class="card-body">
