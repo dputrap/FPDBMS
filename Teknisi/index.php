@@ -92,9 +92,7 @@
 									<td><?=$data['Harga_Jual']?></td>
 		                            <td><?=$data['Harga_Jual_Real']?></td>
 						  			<td>
-										<div class="btn-group">  
-									  	<a href="form-edit-transaksi.php?id=<?php echo $data['IdTrsk']; ?>" class="btn btn-success">
-						  				<img src="../assets/edit.png" width="15" height="18" class="d-inline-block align-middle"></a>
+										<div class="btn-group">  									  	
 						  				<a href="hapus-transaksi.php?id=<?php echo $data['IdTrsk'];?>" class="btn btn-danger ml-2">
 						  				<img src="../assets/delete.png" width="15" height="18" class="d-inline-block align-middle"></a>
 								  		</div>	
