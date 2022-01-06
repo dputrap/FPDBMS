@@ -90,17 +90,16 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 								<?php
 								include '../config.php';
 					  			$no = 1;
-					  			$query = mysqli_query($koneksi, "SELECT * from user ORDER BY IDUser DESC");
+					  			$query = mysqli_query($koneksi, "SELECT * from user ORDER BY IDUser DESC"); //mengambil keseluruhan pada tabel user mengurutkan dari id paling kecil ke besar
 					  			while ($data = mysqli_fetch_array($query)) {
 					  		 ?>
-								<tr>
+								<tr> 
 									<td><?=$no++;?></td>
 									<td><?=$data['Nama']?></td>
 									<td><?=$data['Password']?></td>
 		                            <td><?=$data['Hak_Akses']?></td>
 		                            <td><?=$data['Create_Date']?></td>
-		                            <td><?=$data['Manager']?></td>
-						  			
+		                            <td><?=$data['Manager']?></td> 
 								</tr>
 							<?php };?>
 							</table>
