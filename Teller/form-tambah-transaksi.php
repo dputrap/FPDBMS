@@ -44,7 +44,7 @@
 					<div class="dropdown-divider"></div>
 					<!-- Form jadwal -->
 					<div class="card mt-3">
-						<div class="card-header bg-secondary text-white" style="background-color: #a3c1ad;">
+						<div class="card-header text-white" style="background-color: #a3c1ad;">
 							Form Tambah Transaksi
 						</div>
 						<div class="card-body">
