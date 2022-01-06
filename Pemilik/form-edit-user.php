@@ -8,7 +8,7 @@
 	<!-- Navbar -->
 	<nav class="navbar navbar-light flex-md-nowrap p-2 shadow" style="background-color: #669999;">
   		<div class="container-fluid">
-  			<span class="navbar-brand mb-0 h1">Form Edit Data</span>
+  			<a href="user.php"><span class="navbar-brand mb-0 h1">Form Edit Data</span></a>
   		</div>
 	</nav>
 	<div class="container-fluid">
