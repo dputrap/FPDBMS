@@ -1,6 +1,6 @@
 <?php
 session_start();
- 
+//jika anda masuk sebagai teller maka session teller berjalan dan akan diarahkan ke halaman teller
 if( !isset($_SESSION['saya_teller']) )
 {
     header('location:./../'.$_SESSION['akses']);
