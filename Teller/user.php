@@ -19,7 +19,7 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 
 
 	<!-- Navbar -->
-	<nav class="navbar navbar-dark bg-secondary flex-md-nowrap p-2 shadow col-12">
+	<nav class="navbar navbar-light flex-md-nowrap p-2 shadow" style="background-color: #669999;">
   		<div class="container-fluid">
   			<a class="navbar-brand h1">
   				<img src="../assets/motorcycle.png" width="25">
@@ -30,7 +30,7 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 	<div class="container-fluid">
 		<div class="row">
 			<!-- Sidebar -->
-			<div class="col-md-2 d-none d-md-block bg-light sidebar" style="height: 100vh">
+			<div class="col-md-2 d-none d-md-block sidebar" style="background-color: #a3c1ad;">
 				<div class="sidebar-sticky">
 					<ul class="nav flex-column">
 						<li class="nav-item mt-3">
@@ -38,25 +38,25 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="index.php">
+							<a class="nav-link text-white" href="index.php">
 								<img src="../assets/bars-graphic-business-symbol.png" width="20" height="20" class="d-inline-block align-top"> Dashboard
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="form-tambah-user.php">
+							<a class="nav-link text-white" href="form-tambah-user.php">
 								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Tambah User
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="form-edit-user.php">
+							<a class="nav-link text-white" href="form-edit-user.php">
 								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Data User
 							</a>
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link" href="../logout.php">
+							<a class="nav-link text-white" href="../logout.php">
 								<img src="../assets/logout.png" width="20" height="20" class="d-inline-block align-top"> Logout
 							</a>
 						</li>
@@ -72,7 +72,7 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 					<!-- Tabel Pasien -->
 					<div class="car mt-3">
 						<!-- Header -->
-						<div class="card-header bg-light text-dark">
+						<div class="card-header bg-light text-dark" style="background-color: #a3c1ad;">
 							<h5 class="text-center">Daftar User</h5>
 						</div>
 						<!-- Body -->
