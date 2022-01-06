@@ -50,7 +50,7 @@ $Nama = ( isset($_SESSION['nama_user']) ) ? $_SESSION['nama_user'] : '';
 						</li>
 						<div class="dropdown-divider"></div>
 						<li class="nav-item mt-2">
-							<a class="nav-link text-white" href="form-edit-user.php">
+							<a class="nav-link text-white" href="">
 								<img src="../assets/add-interface-circular-symbol-with-plus-sign.png" width="20" height="20" class="d-inline-block align-top"> Data User
 							</a>
 						</li>
